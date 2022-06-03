@@ -1,6 +1,19 @@
-"use strict";
+const numberOfFilms = +prompt('Сколько фильмов посмотрели?', '');
 
-const id1 = prompt("Результат матча СМД - 38/2?");
-const id2 = prompt("Результат матча СМД - 38/2?");
-const id11 = '2:2';
-console.log(id1 === id11);
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    generes: [],
+    privet: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('Насколько вы оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('Насколько вы оцените его?', '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
