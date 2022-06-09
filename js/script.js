@@ -6,15 +6,16 @@ if (4 == 5) {
     console.log('Error');
 }
 
-const num = 155;
- if (num < 49) {
+let a = 155;
+
+ if (a < 49) {
      console.log('Error');
- } else if (num > 100) {
+ } else if (a > 100) {
      console.log('Много');
  } console.log('ОК');
 
- const num = 155;
- switch (num) {
+
+ switch (a) {
      case 49:
          console.log('Неверно');
          break;
