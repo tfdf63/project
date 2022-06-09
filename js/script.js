@@ -22,7 +22,7 @@ const num = 155;
         console.log('Неверно');
          break;
     case 155:
-        console.log('Неверно');
+        console.log('Верно');
         break;
     default:
         console.log('Неверно');
