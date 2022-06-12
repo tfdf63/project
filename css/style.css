@@ -1,0 +1,19 @@
+.container {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(42, 207, 152);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 20px 15px 0 15px;
+}
+
+.subtitle {
+    margin: 0 15px 0 15px;
+}
