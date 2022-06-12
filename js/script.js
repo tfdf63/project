@@ -1,23 +1,31 @@
-const numberOfFilms = +prompt('Сколько фильмов посмотрели?', '');
+"use srtict"
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    generes: [],
-    privet: false
-};
+if (4 == 5) {
+    console.log('ОК');
+} else {
+    console.log('Error');
+}
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-    b = prompt('Насколько вы оцените его?', ''),
-    c = prompt('Один из последних просмотренных фильмов?', ''),
-    d = prompt('Насколько вы оцените его?', '');
+let a = 155;
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+if (a < 49) {
+    console.log('Error');
+} else if (a > 100) {
+    console.log('Много');
+} console.log('ОК');
 
-console.log(personalMovieDB);
 
-//привет тест
-
-//Ура ура ура
+switch (a) {
+    case 49:
+        console.log('Неверно');
+        break;
+    case 100:
+        console.log('Неверно');
+        break;
+    case 155:
+        console.log('Верно');
+        break;
+    default:
+        console.log('Неверно');
+        break;
+}
